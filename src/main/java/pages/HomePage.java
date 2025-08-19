@@ -27,7 +27,6 @@ public class HomePage extends BaseClass {
         System.out.println("Displaying all products:");
         for (WebElement product : driver.findElements(PRODUCT_LIST)) {
             System.out.println(product.getText());
-            System.out.println("checking");
         }
         try {
             Robot robot = new Robot();
